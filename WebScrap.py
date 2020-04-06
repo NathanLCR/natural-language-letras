@@ -68,9 +68,4 @@ def artista(artista_link):
         for link in musicas_links:
                 musica('https://www.letras.mus.br'+link.find('a').get('href'),album,ano,artista_nome,diretorio_artista)
 
-#teste de cada Funcão
-#artista('https://www.letras.mus.br/anitta/')
-#genero('https://www.letras.mus.br/mais-acessadas/samba/')
-#musica('https://www.letras.mus.br/alcione/82690/','asd','1998','','')
-#discografia('https://www.letras.mus.br/arlindo-cruz/','','')
 
